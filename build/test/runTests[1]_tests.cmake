@@ -1,5 +1,0 @@
-add_test( ThreadPoolTest.TestOne /home/dittus/Coding/thread_pool/build/test/runTests [==[--gtest_filter=ThreadPoolTest.TestOne]==] --gtest_also_run_disabled_tests)
-set_tests_properties( ThreadPoolTest.TestOne PROPERTIES WORKING_DIRECTORY /home/dittus/Coding/thread_pool/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( ThreadPoolTest.TestTwo /home/dittus/Coding/thread_pool/build/test/runTests [==[--gtest_filter=ThreadPoolTest.TestTwo]==] --gtest_also_run_disabled_tests)
-set_tests_properties( ThreadPoolTest.TestTwo PROPERTIES WORKING_DIRECTORY /home/dittus/Coding/thread_pool/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( runTests_TESTS ThreadPoolTest.TestOne ThreadPoolTest.TestTwo)

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/runTests.dir/tests.cpp.o -o runTests  -Wl,-rpath,/home/dittus/Coding/thread_pool/build/src ../src/libthread_pool.so ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a 
